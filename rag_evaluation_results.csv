@@ -1,0 +1,26 @@
+test,question,answer,source,pages,chunk
+1,How do I reset my password?,"Go to the login page and click 'Forgot password'. A reset link is emailed to your registered address
+and expires after 24 hours.",FAQ_Support.pdf,2,1.0
+2,What is the monthly price of the Standard plan?,$12 / user / month,Pricing_and_SLA.pdf,2,1.0
+3,How long are deleted files recoverable?,30 days,Product_Manual.pdf,"2,3",6.0
+4,When is two-factor authentication mandatory?,"2FA is optional for Free and Standard tier accounts but mandatory for all Enterprise tier accounts and
+any account with admin-level permissions.",FAQ_Support.pdf,2,4.0
+5,What happens to my data if I cancel my subscription?,"Your data is retained in a read-only state for 90 days after cancellation, after which it is permanently
+deleted. You can export your data at any time during this window from Account > Export.",FAQ_Support.pdf,2,3.0
+6,What is the maximum file size I can upload?,5GB,API_Reference.pdf,2,3.0
+7,How many requests per minute can the Standard plan make?,600,API_Reference.pdf,2,2.0
+8,What is the probationary period for new hires?,90 days,Onboarding_Guide.pdf,3,6.0
+9,What is the CEO's home address?,I couldn't find this information in the provided documents.,No source,[],
+10,What is the CEO's personal phone number?,I couldn't find this information in the provided documents.,No source,[],
+11,Can I switch my billing from monthly to yearly?,"Yes. Go to Account > Billing > Plan and select 'Switch to annual'. The change takes effect at the start
+of your next billing cycle; no partial refund is issued for the current month.",FAQ_Support.pdf,2,2.0
+12,Do students get any discount on the Standard plan?,"Yes, verified students and registered nonprofits receive 40% off the Standard plan. Apply at
+atmancloud.com/discounts with proof of eligibility.",FAQ_Support.pdf,2,5.0
+13,How much storage does the Standard plan include?,500 gb pooled,Pricing_and_SLA.pdf,2,1.0
+14,What uptime does the Enterprise plan guarantee?,99.95%,Pricing_and_SLA.pdf,2,3.0
+15,What happens if a Standard account exceeds its pooled storage?,"Standard tier accounts exceeding pooled storage are charged $0.08/GB/month for overage, billed at the end of the cycle",Pricing_and_SLA.pdf,2,2.0
+16,What is the burst allowance for the Enterprise plan?,1000,API_Reference.pdf,2,2.0
+17,What is the maximum allowed page size when listing files?,100,API_Reference.pdf,2,4.0
+18,What type of MFA is required to access Restricted Data?,hardware security key,Security_Policy.pdf,2,4.0
+19,What should a new employee be independently responsible for by Day 60?,at least one recurring workstream,Onboarding_Guide.pdf,3,5.0
+20,What programming language was used to build the Atman Cloud Storage backend?,I couldn't find this information in the provided documents.,No source,[],
