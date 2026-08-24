@@ -845,3 +845,24 @@ Source Attribution
 ```
 The system is designed to provide concise answers while maintaining traceability to the original documents and avoiding unsupported answers when the required information is not available in the knowledge base.
 
+## Demo
+
+The Streamlit application provides an interactive interface for
+question answering over the provided company documents.
+
+### Example 1 — Standard Plan Pricing
+
+![Standard Plan Pricing](demo/standard_plan.png)
+
+### Example 2 — File Upload Limit
+
+![File Upload Limit](demo/file_upload_limit.png)
+
+### Example 3 — Annual Billing Discount
+
+![Annual Billing Discount](demo/annual_discount.png)
+
+### Example 4 — Unanswerable Question
+
+![Unanswerable Question](demo/unanswerable.png)
+
