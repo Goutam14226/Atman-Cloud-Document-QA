@@ -106,7 +106,7 @@ For unsupported questions, the system is designed to return:
 `I couldn't find this information in the provided documents.`
 
 ## RAG Pipeline
-# 1. Document Processing and Text Extraction
+### 1. Document Processing and Text Extraction
 
 The system processes the provided company PDF documents using PyPDF.
 
@@ -120,7 +120,7 @@ Preserving page-level metadata is important because the final answer must provid
 
 The system processes the provided documents and produces a final dataset of 47 chunks.
 
-2. Document Chunking
+### 2. Document Chunking
 
 The documents are divided into smaller, meaningful chunks before generating embeddings.
 
@@ -138,12 +138,13 @@ Overlap: 150 characters
 The overlap helps prevent important information from being lost when a sentence or concept falls near a chunk boundary.
 
 For example:
-
+```text
 Chunk 1:
 ... information A B C D E F G ...
 
 Chunk 2:
 ... F G H I J K L M ...
+```
 
 The overlapping content helps maintain context across neighboring chunks.
 
