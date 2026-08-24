@@ -126,7 +126,7 @@ The documents are divided into smaller, meaningful chunks before generating embe
 
 Instead of applying exactly the same chunking strategy to every document, the system uses document-aware chunking.
 
-General documents
+#### General documents
 
 For regular documents, the system first identifies logical sections and preserves those sections where possible.
 
