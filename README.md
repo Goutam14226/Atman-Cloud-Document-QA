@@ -722,7 +722,29 @@ Install the required dependencies:
 ```text
 pip install -r requirements.txt
 ```
-### Running the Application
+## Vector Database Setup
+
+The application uses ChromaDB for storing document embeddings.
+
+After installing the dependencies, open `RAG_Document_QA.ipynb` and run the
+notebook cells through the ChromaDB indexing step.
+
+The notebook:
+
+1. Extracts text from the provided PDFs.
+2. Creates document chunks.
+3. Generates embeddings.
+4. Creates the ChromaDB collection.
+5. Stores the document embeddings and metadata.
+
+This creates the local `chroma_db` directory required by `app.py`.
+
+After the vector database has been created, run the Streamlit application:
+
+```bash
+streamlit run app.py
+
+## Running the Application
 
 Run the Streamlit application using:
 ```text
