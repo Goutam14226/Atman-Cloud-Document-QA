@@ -98,6 +98,7 @@ If the required information cannot be found in the provided documents, the syste
                          │ Document / Page /    │
                          │ Chunk                │
                          └──────────────────────┘
+```
 The system relies on semantic retrieval and reranking, so highly indirect or unusual question phrasing may sometimes retrieve less relevant context.
 
 For unsupported questions, the system is designed to return:
