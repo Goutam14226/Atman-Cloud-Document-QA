@@ -521,6 +521,23 @@ I couldn't find this information in the provided documents.
 ```
 and does not provide a fabricated source.
 
+## Sample Q&A Log
+
+The `rag_evaluation_results.csv` file contains 20 example questions along
+with the generated answers and source attribution.
+
+The evaluation set covers:
+
+- Direct factual questions
+- Table-based questions
+- Numeric questions
+- Policy questions
+- Paraphrased questions
+- Unanswerable questions
+
+The unanswerable questions are included to verify that the system does not
+hallucinate information when the answer is not available in the provided documents.
+
 ## Design Decisions and Trade-offs
 ### Why document-aware chunking?
 
@@ -664,6 +681,15 @@ Model loading and inference can require significant memory and startup time depe
 -FLAN-T5-large
 -Streamlit
 -Pandas
+
+## AI Assistance
+
+ChatGPT was used as a coding and documentation assistant during development,
+including debugging, code organization, README preparation, and project refinement.
+
+The RAG pipeline implementation, testing, and evaluation were reviewed and
+validated during the project development process.
+
 ## Project Structure
 ```text
 Atman-Cloud-Document-QA/
@@ -705,6 +731,13 @@ streamlit run app.py
 After starting the application, open the Streamlit URL provided in the terminal.
 
 The application will display the document Q&A interface.
+
+### Environment Configuration
+
+No external API keys are required for this project.
+
+An `.env.example` file is included as a template for environment configuration.
+
 
 ## Requirements
 
@@ -789,3 +822,4 @@ Grounded Answer
 Source Attribution
 ```
 The system is designed to provide concise answers while maintaining traceability to the original documents and avoiding unsupported answers when the required information is not available in the knowledge base.
+
