@@ -104,7 +104,7 @@ For unsupported questions, the system is designed to return:
 
 `I couldn't find this information in the provided documents.`
 
-##RAG Pipeline
+## RAG Pipeline
 1. Document Processing and Text Extraction
 
 The system processes the provided company PDF documents using PyPDF.
